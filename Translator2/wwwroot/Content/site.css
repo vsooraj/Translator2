@@ -12,7 +12,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .slide-image {
     width: 100%;
 }
@@ -100,4 +103,15 @@ footer {
 {
     background-color: #fcaeae !important;
     border-color: #fba1a1 !important;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
 }

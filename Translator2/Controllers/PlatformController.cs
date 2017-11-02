@@ -17,7 +17,7 @@ namespace Translator2.Controllers
         }
         public ViewResult Index()
         {
-            ViewBag.Title = "Mi Translator";
+            ViewBag.Title = "Platform";
             return View(_platformRepository.Platforms);
         }
     }
